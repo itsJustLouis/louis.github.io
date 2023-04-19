@@ -1,0 +1,32 @@
+html{
+    font-family: 'Cabin', sans-serif;
+    background-color:rgb(22, 10, 23);
+}
+h1{
+    color: deeppink;
+    font-size: 70px;
+    display: block;
+    position: absolute;
+}
+.app{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.buttonGroup{
+    margin-top: 150px;
+}
+button{
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 10px 30px;
+    background-color: rgb(233, 177, 88);
+    border: none;
+}
+.button--no{
+    margin-right: 50%;
+    
+}
